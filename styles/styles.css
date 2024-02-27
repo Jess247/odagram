@@ -24,7 +24,7 @@
   border-bottom: 1px solid #818181;
 }
 .header .logo {
-  height: 33px;
+  height: 80%;
 }
 
 .main {
@@ -32,6 +32,7 @@
 }
 
 .user-info {
+  margin: 1em 0;
   display: flex;
   gap: 0.5em;
 }
@@ -52,8 +53,7 @@
 .post i {
   margin-right: 0.5em;
 }
-
-.likes {
+.post .likes {
   margin: 0.7em 0;
   font-weight: 800;
 }
