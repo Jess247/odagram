@@ -1,0 +1,71 @@
+@import 'resets';
+
+
+.container {
+    width: 375px;
+    margin: 0 auto;
+    font-family: "Source Sans 3", sans-serif;
+    line-height: 1.2;
+    font-size: .9rem;
+
+    p {
+        font-weight: 300;
+    }
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4.18rem;
+    border-bottom: 1px solid #818181;
+    
+    .logo {
+        height: 33px;
+    }
+
+}
+
+.main {
+    padding: .7em 0;
+}
+
+.user-info{
+    display: flex;
+    gap: .5em;
+
+    .username {
+        font-weight: 800;
+    }
+}
+
+.profile-pic {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+.post {
+
+    img {
+        width: 100%;
+        margin: .5em 0;
+    }
+
+    i {
+        margin-right: .5em;
+    }
+}
+
+.likes {
+    margin: .7em 0;
+    font-weight: 800;
+}
+
+.extra-padding {
+    padding: 0 .5em;
+
+    span {
+        font-weight: 800;
+    }
+}
